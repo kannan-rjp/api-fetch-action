@@ -1,0 +1,255 @@
+
+/* for logo spin*/
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* for desktop*/
+@media screen and ( min-width: 300px ){
+  .body_container{
+    background-color: rgb(210, 210, 241);
+  }
+  .table-contents {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 600px){
+  .body_container{
+    background-color: white;
+  }
+  .body_container {
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    padding: 20px 26px;
+    margin-top: 108px;
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .table-contents tr {
+    display: block;
+  }
+}
+
+/* disp con */
+.disp_con {
+  display: flex;
+  width: 100%;
+  margin-top: 50px
+}
+/* main_container */
+.main_container {
+  display: flex;
+  flex-direction: column;
+  width:320px;
+  align-items: center;
+  margin: auto;
+}
+
+.logo_amazon {
+  display: flex;
+  align-items: center;
+  height: 31px;
+  width: 103px;
+  margin-bottom: 12px;
+}
+.body_container {
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  padding: 20px 26px;
+}
+
+.headone  {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2px;
+  padding-bottom: 4px;
+  margin:10px 0px 25px 0px;
+}
+.label_email {
+  margin-bottom: 2px;
+}
+.for_input {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.input_email {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: 31px;
+  padding: 3px 7px;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+  outline: 0;
+  
+}
+
+.input_email:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+.input_submit {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none!important;
+  vertical-align: middle;
+  line-height: 19px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  height: 30px;
+}
+.span_color{
+  color: skyblue;
+}
+.legal_info {
+  font-size: 12px;;
+}
+
+.flex-content {
+  display: flex;
+  align-items: center;
+}
+.flex-head-one{
+  flex: 4;
+}
+.flex-head-two {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.table-content {
+  width: 100%;
+  margin-top: 30px ;
+}
+.post-content-main {
+  width: 95%;
+  margin: auto;
+}
+
+.table-contents {
+  border-collapse: collapse;
+  width: 95%;
+  margin:20px auto;
+  text-align: center
+}
+.table-contents td, th {
+  border: 1px solid #ddd;
+  padding: 23px;
+}
+.table-contents tr:hover{
+  background-color: rgb(253, 241, 241);
+}
+.table-head {
+  background-color: rgb(249, 229, 229);
+}
+
+.act {
+  display: block;
+}
+
+.post-content {
+  background-color: wheat;
+  width: 50%;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px rgb(188, 183, 175);
+  margin-top: 70px;
+  margin-left: 25%;
+}
+
+.post-content-h2,.post-content-h5{
+  margin-top: 0;
+}
+.post-content-h3{
+  margin-top: 0;
+
+}
+.text-deco {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.post-content-body {
+  padding: 12px 25px;
+}
+.post-content-button {
+  padding: 12px;
+  width: 500px;
+  margin: auto
+}
+
+/*popup modal*/
+.pop-up-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupform-section {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(250, 246, 247);
+    padding: 16px;
+}
+.popuptitle, .popupbody {
+  display: flex;
+  flex-direction: column;
+}
+.title-area {
+  resize: none;
+  height: 100px;
+  width: 256px;
+  padding: 3px 7px;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+  outline: 0;
+}
+.body-area {
+  resize: none;
+  height: 143px;
+  width: 256px;
+  padding: 3px 7px;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+  outline: 0;
+}
+
+.title-area:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%); 
+}
+.body-area:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+/* button */
+.for-padd {
+  padding: 3px 7px;
+}
