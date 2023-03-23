@@ -1,3 +1,8 @@
+Application
+CRUD Operation
+Using Material UI
+Axios library for using API
+Redux state management
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
